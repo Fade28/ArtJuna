@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "artjuna_mobile",
     "short_name": "artjuna_mobile",
+=======
+    "name": "atjuna",
+    "short_name": "atjuna",
+>>>>>>> 6a21f28 (Fix Final)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
