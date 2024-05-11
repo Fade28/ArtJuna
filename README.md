@@ -1,75 +1,67 @@
-<<<<<<< HEAD
-# artjuna_mobile
-
-Project ini dibuat menggunakan flutter dengan study case menyediakan fasilitas untuk membantu UKM dalam kampus yang memiliki jasa atau alat yang bisa disewakan.
-
-## ON DEVELOPMENT
-=======
 # Artjuna Mobile
 
 ## Apa itu Artjuna Mobile
 
-Artjuna Mobile adalah aplikasi berbasis mobile yang di buat untuk 
+Artjuna Mobile adalah aplikasi berbasis mobile yang di buat untuk memnuhi kebutuhan dalam sistem artjuna. artjuna mobile diperuntukkan untuk user yang akan menjadi client pada stiap sanggar yang terdaftar dalam sistem artjuna. artjuna mobile dibangun dengan menggunakan framework flutter.
 
-### Fitur Admin Artjuna
+### Fitur Artjuna Mobile
 
-* Mengelola User Sanggar
-* Mengelola User Pelanggan
-* Mengelola publish budaya
+* Login User
+* Regitrasi User
+* Mencari alat-alat seni dan jasa tarian
+* Melihat detail produk
+* melakukan transaksi
+* pesan untuk komunikasi ke sanggar
 * Setting Akun
-
-### Fitur Admin Sanggar
-
-* Mengelola Profil Sanggar
-* Mengelola Produk Sanggar
-* Mengelola Kontrak Pelanggan
-* Pesan
 
 ## ScreenShoots
 
 ### Admin Artjuna
 
-| ![login](ss/Login.png) | ![Beranda](ss/Dashboard%20Admin%20Artjuna.png) | ![Screenshot 2](ss/CRUD%20Sanggar.png) | ![Screenshot 2](ss/CRUD%20Pengguna.png) | ![Screenshot 2](ss/Setting%20Admin.png) |
-|------------------------|------------------------------------------------|----------------------------------------|-----------------------------------------|-----------------------------------------|
-| Login                  | Tampilan Beranda Admin Artjuna                 | Halaman Sanggar                        | Halaman Pengguna                        | Halaman Setting Admin                   |
-
-### Admin Sanggar
-
-| ![Beranda](ss/Profil%20Sanggar.png) | ![Screenshot 2](ss/CRUD%20Produk.png) | ![Screenshot 2](ss/CRUD%20Transaksi.png) | ![Screenshot 2](ss/Daftar%20Pesan.png) | ![Screenshot 2](ss/Pesan.png) | ![Screenshot 2](ss/Setting%20Sanggar.png) |
-|-------------------------------------|---------------------------------------|------------------------------------------|----------------------------------------|-------------------------------|-------------------------------------------|
-| Tampilan Beranda Profil Sanggar     | Halaman Produk                        | Halaman Transaksi                        | Halaman Daftar Pesan                   | Halaman Pesan                 | Halaman Setting Sanggar                   |
+| ![splash](ss/splash.png) | ![login](ss/login.png) | ![Registrasi](ss/register.png) | ![Home](ss/home.png) | ![sanggar](ss/sanggar.png) | ![detail](ss/detail_produk.png) | ![transaksi](ss/transaksi.png) | ![dafpesan](ss/daftar_pesan.png) | ![pesan](ss/pesan.png) | ![profil](ss/profil.png) |
+|--------------------------|------------------------|--------------------------------|----------------------|----------------------------|---------------------------------|--------------------------------|----------------------------------|------------------------|--------------------------|
+| Splash Screen            | Tampilan Login         | Halaman Regitrasi              | Halaman Home         | Halaman Etalase Sanggar    | Halaman Detail Produk           | Halaman Transaksi              | Halaman Daftar Pesan             | Halaman Pesan          | Halaman Profil           |
 
 ## Technology
 
 * Programming Leanguage
-  * PHP
-  * HTML
-  * JavaScript
-  * CSS
+  * Dart
 
 * Framework
-  * Codeignitier
-  * TailwindCss
-  * AlpineJS
+  * Flatter
+
+* Package
+  * build runner
+  * flutter bloc
+  * freazed
+  * freazed annotation
+  * http
+  * provider
+  * shared praferences
+  * introduction screen
+  * flutter native splash
 
 ## Setup
 
-1. Configure .env
-   Pertama configure env terlebih dahulu dari baseURL dan Database yang kamu gunakan.
-  
-2. Migration
-   Selanjutnya migrasikan database buat semua table dan data dummy yang di perlukan. kamu bisa menggunakan perintah ini :
+1. Mengambil atau mengkonfigurasi package
+   Pertama anda perlu melakukan semcam reboot project. hal ini adalah untuk mengenalkan projek baru tepada workspace kita. terkadang hal ini jika tidak dilakukan akan menimbulkan eror dalam project.
       ```PowerShell
-      # Perintah untuk Migration
-      php spark migrate
+        # Perintah untuk clear semua cache dan hal-hal dari env lama.
+        flutter clean
+        # Perintah untuk mendownload package yang dibutuhkan.
+        flutter pub get
       ```
-3. Membuat Data Dummy
+  
+2. URL API
+   Selanjutnya configurasi alamat domain yang menjadi API anda. anda bisa mengedit pada file constant.dart :
+     ![login](ss/domain.png)
+4. Membuat Data Dummy
    Selanjutnya Membuat data awal agar sistem bisa berfungsi.
     ```PowerShell
     # Perintah untuk Seeder
     php spark db:seed TestSeeder
     ```
-4. Jalankan Server
+5. Jalankan Server
    Untuk menjalankan anda bisa menggunakan perintah ini.
    ```PowerShell
     # Perintah untuk Seeder
