@@ -54,20 +54,19 @@ Artjuna Mobile adalah aplikasi berbasis mobile yang di buat untuk memnuhi kebutu
   
 2. URL API
    Selanjutnya configurasi alamat domain yang menjadi API anda. anda bisa mengedit pada file constant.dart :
-     ![login](ss/domain.png)
-4. Membuat Data Dummy
-   Selanjutnya Membuat data awal agar sistem bisa berfungsi.
-    ```PowerShell
-    # Perintah untuk Seeder
-    php spark db:seed TestSeeder
-    ```
-5. Jalankan Server
-   Untuk menjalankan anda bisa menggunakan perintah ini.
+     ![domain API](ss/domain.png)
+   
+3. Configurasi API
+   Jika anda menggunakan API yang tersedia pada Artjuna Admin anda bisa skip langkah ini. Selanjutnya anda perlu menyesuaikan nama api yang anda buat dan cari mengambil datanya pada setiap datasource. anda bisa memperhatikan baris ini.
+   ![API](ss/api.png)
+   
+4. Jalankan device
+   Untuk menjalankan device anda bisa menggunakan emulator atau real device anda dengan memilih pada bagian ini.
    ```PowerShell
     # Perintah untuk Seeder
     php spark serve
     ```
-6. Selesai
+5. Selesai
 
    Jika semua sudah di konfigrasi dengan baik selanjutnya silahkan di rubah sesuai kebutuhan anda.
 
