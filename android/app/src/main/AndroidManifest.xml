@@ -1,18 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <application
-        android:label="artjuna_mobile"
-=======
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="ARtjuna"
->>>>>>> 6a21f28 (Fix Final)
-=======
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <application
-        android:label="ARtjuna"
->>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
