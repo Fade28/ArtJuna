@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:artjuna_mobile/page/welcome_hal.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -19,6 +20,8 @@ class App extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const WelcomeHal(),
 =======
+=======
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shop_app/bloc/budaya/budaya_bloc.dart';
@@ -99,7 +102,10 @@ class MyApp extends StatelessWidget {
         initialRoute: WelcomeHal.routeName,
         routes: routes,
       ),
+<<<<<<< HEAD
 >>>>>>> 6a21f28 (Fix Final)
+=======
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
     );
   }
 }

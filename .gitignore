@@ -9,9 +9,12 @@
 .history
 .svn/
 <<<<<<< HEAD
+<<<<<<< HEAD
 migrate_working_dir/
 =======
 >>>>>>> 6a21f28 (Fix Final)
+=======
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
 
 # IntelliJ related
 *.iml
@@ -27,32 +30,45 @@ migrate_working_dir/
 # Flutter/Dart/Pub related
 **/doc/api/
 <<<<<<< HEAD
+<<<<<<< HEAD
 **/ios/Flutter/.last_build_id
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 =======
+=======
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
+<<<<<<< HEAD
 >>>>>>> 6a21f28 (Fix Final)
+=======
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
 .pub-cache/
 .pub/
 /build/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Web related
 lib/generated_plugin_registrant.dart
 
 >>>>>>> 6a21f28 (Fix Final)
+=======
+# Web related
+lib/generated_plugin_registrant.dart
+
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
 # Symbolication related
 app.*.symbols
 
 # Obfuscation related
 app.*.map.json
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Android Studio will place build artifacts here
 /android/app/debug
@@ -62,3 +78,7 @@ app.*.map.json
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 >>>>>>> 6a21f28 (Fix Final)
+=======
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5

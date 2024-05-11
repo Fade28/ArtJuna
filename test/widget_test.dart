@@ -8,11 +8,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import 'package:artjuna_mobile/main.dart';
 =======
 import 'package:shop_app/main.dart';
 >>>>>>> 6a21f28 (Fix Final)
+=======
+import 'package:shop_app/main.dart';
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

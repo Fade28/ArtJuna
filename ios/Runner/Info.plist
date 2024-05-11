@@ -6,10 +6,14 @@
 		<string>$(DEVELOPMENT_LANGUAGE)</string>
 		<key>CFBundleDisplayName</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<string>Artjuna Mobile</string>
 =======
 		<string>Demo App</string>
 >>>>>>> 6a21f28 (Fix Final)
+=======
+		<string>Demo App</string>
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
 		<key>CFBundleExecutable</key>
 		<string>$(EXECUTABLE_NAME)</string>
 		<key>CFBundleIdentifier</key>
@@ -18,10 +22,14 @@
 		<string>6.0</string>
 		<key>CFBundleName</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<string>artjuna_mobile</string>
 =======
 		<string>demo_app</string>
 >>>>>>> 6a21f28 (Fix Final)
+=======
+		<string>demo_app</string>
+>>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>
