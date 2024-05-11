@@ -65,21 +65,7 @@ Artjuna Mobile adalah aplikasi berbasis mobile yang di buat untuk memnuhi kebutu
    ![Star_Device](ss/device.gif)
 
 5. Selesai
-
    Jika semua sudah di konfigrasi dengan baik selanjutnya silahkan di rubah sesuai kebutuhan anda.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
 
 ## Contribution
 
@@ -93,7 +79,7 @@ Jika Anda ingin berkontribusi pada proyek ini, harap ikuti langkah-langkah di ba
 ## Lisensi
 
 - Copyright © 2024 Fade28.
-- **Sistem Informasi Akademik Sekolah is open-sourced software licensed under the [MIT license](LICENSE).**
+- **Sistem Informasi Akademik Sekolah is open-sourced software licensed under the [GNU v3.0 license](LICENSE).**
 
 ## Created By
 
@@ -106,4 +92,3 @@ Proyek ini saya bangun berdua bersama partner saya dan di publish sebagai bentuk
 Jika anda tertarik diskusi lebih lanjut atau membangun kerjasama terkait dengan saya dapat menghubungi link dibawah ini :
 - Facebook : <a href="https://www.facebook.com/fatihbro/">Ahmad Fati Fadhlillah</a>
 - LinkedIn : <a href="https://www.linkedin.com/in/fatih-fadhlillah-876654241">Fade 28</a>
->>>>>>> 187792162197aed9ddc7c267399459d075fe0ba5
