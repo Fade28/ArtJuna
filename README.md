@@ -62,10 +62,8 @@ Artjuna Mobile adalah aplikasi berbasis mobile yang di buat untuk memnuhi kebutu
    
 4. Jalankan device
    Untuk menjalankan device anda bisa menggunakan emulator atau real device anda dengan memilih pada bagian ini.
-   ```PowerShell
-    # Perintah untuk Seeder
-    php spark serve
-    ```
+   ![Star_Device](ss/device.png)
+
 5. Selesai
 
    Jika semua sudah di konfigrasi dengan baik selanjutnya silahkan di rubah sesuai kebutuhan anda.
