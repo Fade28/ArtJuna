@@ -62,7 +62,7 @@ Artjuna Mobile adalah aplikasi berbasis mobile yang di buat untuk memnuhi kebutu
    
 4. Jalankan device
    Untuk menjalankan device anda bisa menggunakan emulator atau real device anda dengan memilih pada bagian ini.
-   ![Star_Device](ss/device.png)
+   ![Star_Device](ss/device.gif)
 
 5. Selesai
 
