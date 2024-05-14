@@ -71,9 +71,9 @@ Artjuna Mobile adalah aplikasi berbasis mobile yang di buat untuk memnuhi kebutu
 
 Jika Anda ingin berkontribusi pada proyek ini, harap ikuti langkah-langkah di bawah ini:
 
-1. Silakan fork repositori ini dan buat branch baru untuk fitur atau perbaikan yang Anda rencanakan.
+1. Silakan fork repositori ini untuk fitur atau pengembangan yang anda rencanakan.
 2. Lakukan perubahan yang diperlukan.
-3. Kirimkan pull request ke branch utama kami untuk ditinjau.
+3. Kirimkan pull request ke kami untuk ditinjau.
 4. Pastikan kode Anda memenuhi pedoman kode kami.
 
 ## Lisensi
